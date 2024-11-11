@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>INTEC Instituto</title>
+  <link href="style2.css" rel="stylesheet" type="text/css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/carousel/">
+ 
+</head>
+
+<body>
+
+      <!--navbar -->
+
+       <nav id="navintec" class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">
+                <img id="logo" src="Proyecto Creador de logotipos-Photoroom.png" alt="Bootstrap" width="120" height="80">
+              </a>
+              <a id="colornav1" class="navbar-brand" href="#">INSTITUTO DE ENSEÑANZA <br> TECNOLÓGICA</a>
+              <button id="hamburger-toggler" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a id="colornav" class="nav-link active" aria-current="page" href="index.html">Nosotros</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a id="colornav" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Cursos
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="colornav">
+                      <li><a class="dropdown-item" href="programacion.html">PROGRAMACIÓN</a></li>
+                      <li><a class="dropdown-item" href="hardware.html">HARDWARE</a></li>
+                      <li><a class="dropdown-item" href="robotica.html">ROBÓTICA y 3D</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a id="colornav" class="nav-link" href="inscripcion.html">Inscripción</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+     <br>
+
+    <!--final del navbar-->
+   
+    <div id="main-container" class="container-fluid my-5">
+       
+        <h1 id="main-title" class="text-center text-primary">PROGRAMACIÓN</h1>
+        <p id="main-description" class="text-center">
+            ¡Bienvenidos al Curso de Programación! En este curso, aprenderás las bases de la programación, desde la lógica hasta la creación de tus propios programas. No importa si nunca has escrito una línea de código antes, aquí te guiaremos paso a paso por los conceptos esenciales como variables, estructuras de control, funciones y mucho más.
+        </p>
+
+          <div id="section-basics" class="section-title mt-5">FUNDAMENTOS BÁSICOS</div>
+                <div id="basics-content" class="row my-4">
+                    <div class="col-md-6 text-center">
+                        <video width="100%" autoplay loop muted>
+                            <source src="videoprogramación.mp4" type="video/mp4">             </video>
+                    </div>
+                    <div class="col-md-6">
+                        <div id="" class="card text-center">
+                            <img src="titulos.svg" id="svg" alt="Imagen del curso">
+                            <div class="card-body">
+                                <p class="card-text">
+                                    Aprender a programar desde cero puede parecer desafiante, pero todo comienza con conceptos básicos. Lo primero es entender la lógica de programación, que te permitirá descomponer problemas en pasos sencillos. Luego, aprenderás sobre variables, que almacenan información, y estructuras de control como bucles y condicionales.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+        </div>
+
+
+        <div id="section-backend" class="section-title">DESARROLLO BACKEND</div>
+        <div id="backend-content" class="row my-4">
+            <div class="col-md-6 order-md-2 text-center">
+                <img src="backend.png" alt="Backend">
+            </div>
+            <div class="col-md-6 order-md-1">
+                <div class="card text-center">
+                    <img src="titulo3.svg" id="svg" alt="Desarrollo Backend">
+                    <div class="card-body">
+                        <p class="card-text">
+                            El desarrollo backend se enfoca en todo lo que sucede "detrás de escena" en una aplicación. Aprenderás a manejar servidores, procesar solicitudes, gestionar la lógica de negocio y conectar tu aplicación con bases de datos.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="section-frontend" class="section-title">DESARROLLO FRONTEND</div>
+        <div id="frontend-content" class="row my-4">
+            <div class="col-md-6 text-center">
+                <img src="frontend.jpg" alt="Frontend">
+            </div>
+            <div class="col-md-6">
+                <div class="card text-center">
+                    <img src="titulo2.svg"  id="svg" alt="Desarrollo Frontend">
+                    <div class="card-body">
+                        <p class="card-text">
+                            Comenzaremos con HTML para estructurar tus páginas, seguiremos con CSS para darles estilo y apariencia profesional, y finalmente, introduciremos JavaScript para agregar interactividad y dinamismo.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+  
+    </div>
+    </div>
+        <!--FIN DEL CONTENIDO-->
+<!--cartas-->
+
+      <div class="container text-center"> 
+        <p id="testimonio">NUESTROS CURSOS</p>
+        <div class="row justify-content-center">
+          
+          <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center mb-4">
+            <div class="card" id="cardho" style="width: 100%; max-width: 300px; height: auto;">
+              <img class="card-img-top" src="reparacion_microinformaticos.jpg" alt="Card image">
+              <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center overlay-gradient">
+                <h4 class="card-title text-center" id="cartas">REPARACION DE PC</h4>
+                <a href="hardware.html" class="btn btn-primary mt-auto" style="width: 100px;">VER MAS</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center mb-4">
+            <div class="card" id="cardho" style="width: 100%; max-width: 300px; height: auto;">
+              <img class="card-img-top" src="imagen3D.jpg" alt="Card image">
+              <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center overlay-gradient">
+                <h4 class="card-title text-center" id="cartas">ROBOTICA e IMPRESION 3D</h4>
+                <a href="robotica.html" class="btn btn-primary mt-auto" style="width: 100px;">VER MAS</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <br>
+           <!--fincartas-->
+
+<!--footer-->
+   
+<footer class="text-white d-flex justify-content-between align-items-center p-4" id="foter">
+        <a class="navbar-brand" href="#navintec"> 
+              <img id="logofooter" src="Proyecto Creador de logotipos-Photoroom.png" alt="Bootstrap" width="130" height="100"></a>
+
+        <div class="container text-center">
+            <section class="mb-4">
+                <a href="inscripcion.html" class="btn btn-primary mb-3" id="botonfoter">INSCRÍBETE YA</a>
+            </section>
+            <div class="d-flex justify-content-center mt-3">
+                <div class="iconos"><i class="fa-regular fa-envelope"></i></div>
+                <div class="iconos"><i class="fa-brands fa-instagram"></i></div>
+                <div class="iconos"><i class="fa-brands fa-whatsapp"></i></div>
+            </div>
+        </div>
+
+        <div class="iconos1">
+            <a href="index.html">
+                <i class="fa-solid fa-house"></i>
+        </div>
+    </footer>
+
+    <!--final del footer-->
+  
+  <script src="https://kit.fontawesome.com/d7f2fe840a.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>

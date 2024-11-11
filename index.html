@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>INTEC Instituto</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/carousel/">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+</head>
+
+<body>
+
+  <!--navbar -->
+
+  <nav id="navintec" class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img id="logo" src="Proyecto Creador de logotipos-Photoroom.png" alt="Bootstrap" width="120" height="80">
+        </a>
+        <a id="colornav1" class="navbar-brand" href="#">INSTITUTO DE ENSEÑANZA <br> TECNOLÓGICA</a>
+        <button id="hamburger-toggler" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a id="colornav" class="nav-link active" aria-current="page" href="#instituto">Nosotros</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a id="colornav" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Cursos
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="colornav">
+                <li><a class="dropdown-item" href="programacion.html">PROGRAMACIÓN</a></li>
+                <li><a class="dropdown-item" href="hardware.html">HARDWARE</a></li>
+                <li><a class="dropdown-item" href="robotica.html">ROBÓTICA y 3D</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a id="colornav" class="nav-link" href="inscripcion.html">Inscripción</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+  </nav>
+
+
+
+<!--final del navbar-->
+
+  <!--carrusel-->
+   <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+     <div class="carousel-inner">
+       <div class="carousel-item active" data-bs-interval="10000">
+         <img id="carrusel1" src="somosintecfoto.jpg" class="d-block w-100" alt="...">
+
+       </div>         
+       <div class="carousel-item" data-bs-interval="2000">
+         <img id="carrusel1" src="informatica.jpg" class="d-block w-100" alt="...">
+       </div>
+       <div class="carousel-item">
+         <img id="carrusel1" src="componentespc.jpg" class="d-block w-100" alt="...">
+       </div>
+     </div>
+     <div class="carousel-indicators">
+       <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+       <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="1" aria-label="Slide 2" class="active" aria-current="true"></button>
+       <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+     </div>
+
+     <div class="carousel-overlay overlay-gradient2">
+       <h2 class="animate__animated animate__fadeInLeft" id="somosintec">SOMOS INTEC</h2>
+       <p class="animate__animated animate__fadeInUp animate__delay-2s" id="somosintec2">INSTITUTO DE ENSEÑANZA TECNOLÓGICA <br></p>
+     </div>
+   </div>
+  <!--FIN DEL CARRUSEL-->
+
+
+
+    <!--INSTITUTO-->
+
+  <!-- <div class="container my-5">
+      <div class="custom-box">
+        <div class="inner-box">-->
+  <div class="container my-5 d-none d-lg-block">
+    <div class="row justify-content-center">
+      <div class="col-md-12 col-lg-10">
+        <div class="custom-box" id="instituto">
+          <div class="inner-box">
+            <h2>NUESTRO INSTITUTO</h2>
+            <p>
+              Bienvenidos al Instituto Tecnológico INTEC, una institución comprometida con la formación de
+              profesionales altamente capacitados en las áreas de ciencia, tecnología e innovación. Nuestro instituto se
+              distingue por ofrecer programas educativos de vanguardia en ingeniería, tecnologías de la información,
+              electrónica, entre otros campos emergentes.
+            </p>
+            <p>
+              Contamos con un cuerpo docente especializado y laboratorios equipados con tecnología de punta, lo que
+              permite a nuestros estudiantes adquirir competencias prácticas y teóricas de alto nivel. Nuestro enfoque
+              es no solo educar, sino también fomentar la investigación y el desarrollo de proyectos que impacten
+              positivamente en la industria y la sociedad.
+            </p>
+            <p>
+              En el Instituto Tecnológico INTEC, creemos en formar líderes que puedan enfrentar los
+              desafíos del mundo actual y contribuir al crecimiento y transformación del entorno global. ¡Te invitamos a
+              ser parte de nuestra comunidad y construir el futuro con nosotros!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="container my-5 d-lg-none text-center">
+    <button id="botonmodal" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#institutoModal">
+      CONOCE NUESTRO INSTITUTO
+    </button>
+  </div>
+
+  <!-- Modal for Nuestro Instituto (Visible in small screens only) -->
+  <div class="modal fade" id="institutoModal" tabindex="-1" aria-labelledby="institutoModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="institutoModalLabel">NUESTRO INSTITUTO</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>
+            Bienvenidos al Instituto Tecnológico INTEC, una institución comprometida con la formación de
+            profesionales altamente capacitados en las áreas de ciencia, tecnología e innovación. Nuestro instituto se
+            distingue por ofrecer programas educativos de vanguardia en ingeniería, tecnologías de la información,
+            electrónica, entre otros campos emergentes.
+          </p>
+          <p>
+            Contamos con un cuerpo docente especializado y laboratorios equipados con tecnología de punta, lo que
+            permite a nuestros estudiantes adquirir competencias prácticas y teóricas de alto nivel. Nuestro enfoque
+            es no solo educar, sino también fomentar la investigación y el desarrollo de proyectos que impacten
+            positivamente en la industria y la sociedad.
+          </p>
+          <p>
+            En el Instituto Tecnológico INTEC, creemos en formar líderes que puedan enfrentar los
+            desafíos del mundo actual y contribuir al crecimiento y transformación del entorno global. ¡Te invitamos a
+            ser parte de nuestra comunidad y construir el futuro con nosotros!
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!--fininstituto-->
+
+    <!--cartas-->
+  
+  <div class="container text-center"> 
+    <p id="testimonio">NUESTROS CURSOS</p>
+    <div class="row justify-content-center">
+      <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center mb-4">
+        <div class="card"  id="cardho" style="width: 100%; max-width: 300px; height: auto;">
+          <img class="card-img-top" src="Seguridad-TIC.jpg" alt="Card image">
+          <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center overlay-gradient ">
+            <h4 class="card-title text-center" id="cartas">PROGRAMACIÓN</h4>
+            <a href="programacion.html" class="btn btn-primary mt-auto" style="width: 100px;">VER MÁS</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center mb-4">
+        <div class="card" id="cardho" style="width: 100%; max-width: 300px; height: auto;">
+          <img class="card-img-top" src="reparacion_microinformaticos.jpg" alt="Card image">
+          <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center overlay-gradient">
+            <h4 class="card-title text-center" id="cartas">REPARACIÓN DE PC</h4>
+            <a href="hardware.html" class="btn btn-primary mt-auto" style="width: 100px;">VER MÁS</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center mb-4">
+        <div class="card" id="cardho" style="width: 100%; max-width: 300px; height: auto;">
+          <img class="card-img-top" src="imagen3D.jpg" alt="Card image">
+          <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center overlay-gradient">
+            <h4 class="card-title text-center" id="cartas">ROBÓTICA e IMPRESIÓN 3D</h4>
+            <a href="robotica.html" class="btn btn-primary mt-auto" style="width: 100px;">VER MÁS</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+       <!--fincartas-->
+
+    <!--TESTIMONIOS-->
+     <div class="container text-center">
+       <p id="testimonio">TESTIMONIOS DE NUESTROS CLIENTES</p>
+     </div>
+
+     <div id="testimonialCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+       <div class="carousel-inner">
+           <!-- Testimonio 1 -->
+           <div class="carousel-item active">
+               <div class="testimonial-card d-flex flex-column flex-md-row align-items-center p-3">
+                   <img src="foto_cv_lc_es_11.jpg" alt="Foto de Carlos Martínez" class="testimonial-img rounded-circle me-md-3 mb-3 mb-md-0">
+                   <div class="testimonial-content text-center text-md-start">
+                       <div class="testimonial-header d-flex flex-column flex-md-row align-items-center mb-2">
+                           <h5 class="mb-1">Carlos Martínez</h5>
+                           <div class="star-rating ms-md-2">
+                               &#9733; &#9733; &#9733; &#9733; &#9734;
+                           </div>
+                       </div>
+                       <p class="text-muted">Estudiante de Desarrollo de Software</p>
+                       <p class="testimonial-text">
+                           "La experiencia en el Instituto ha sido excelente. Los profesores son muy dedicados, y las prácticas me han ayudado a aplicar todo lo aprendido en clase."
+                       </p>
+                   </div>
+               </div>
+           </div>
+           <!-- Testimonio 2 -->
+           <div class="carousel-item">
+               <div class="testimonial-card d-flex flex-column flex-md-row align-items-center p-3">
+                   <img src="foto_cv_lc_es_7.jpg" alt="Foto de Ana González" class="testimonial-img rounded-circle me-md-3 mb-3 mb-md-0">
+                   <div class="testimonial-content text-center text-md-start">
+                       <div class="testimonial-header d-flex flex-column flex-md-row align-items-center mb-2">
+                           <h5 class="mb-1">Ana González</h5>
+                           <div class="star-rating ms-md-2">
+                               &#9733; &#9733; &#9733; &#9733; &#9733;
+                           </div>
+                       </div>
+                       <p class="text-muted">Graduada en Redes y Telecomunicaciones</p>
+                       <p class="testimonial-text">
+                           "Gracias al Instituto conseguí empleo en una gran empresa. La formación práctica realmente me preparó para el mundo laboral."
+                       </p>
+                   </div>
+               </div>
+           </div>
+           <!-- Testimonio 3 -->
+           <div class="carousel-item">
+               <div class="testimonial-card d-flex flex-column flex-md-row align-items-center p-3">
+                   <img src="foto cv.jpg" alt="Foto de Luis Herrera" class="testimonial-img rounded-circle me-md-3 mb-3 mb-md-0">
+                   <div class="testimonial-content text-center text-md-start">
+                       <div class="testimonial-header d-flex flex-column flex-md-row align-items-center mb-2">
+                           <h5 class="mb-1">Luis Herrera</h5>
+                           <div class="star-rating ms-md-2">
+                               &#9733; &#9733; &#9733; &#9733; &#9734;
+                           </div>
+                       </div>
+                       <p class="text-muted">Padre de familia</p>
+                       <p class="testimonial-text">
+                           "Estoy muy satisfecho con la educación de mi hijo en el Instituto. Veo cómo ha crecido en conocimiento y confianza."
+                       </p>
+                   </div>
+               </div>
+           </div>
+       </div>
+        <br>
+       <!-- Controles del carrusel -->
+       <div class="carousel-indicators">
+           <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+           <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+           <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+       </div>
+     </div>
+  <!--FIN DE TESTIMONIOS-->
+     <br>
+
+
+<!--footer-->
+    <footer class=" text-white d-flex justify-content-between align-items-center p-4" id="foter">
+      
+      <div class="row w-100 justify-content-center text-center ">
+      <div class="col-6 col-md-4 mb-3 d-flex align-items-center justify-content-center"> <!-- Columna 1 -->
+        <a class="navbar-brand" href="#navintec"> 
+          <img id="logofooter" src="Proyecto Creador de logotipos-Photoroom.png" alt="Bootstrap" width="150" height="100"></a>
+      </div>
+      <div class="col-6 col-md-4 mb-3 d-flex align-items-center justify-content-center"> <!-- Columna 2 -->
+        <div class="container text-center">
+
+             <a href="inscripcion.html" class="btn btn-primary mb-3" id="botonfoter">INSCRÍBETE YA</a>
+
+         </div>
+
+      </div>
+      <div class="col-12 col-md-4 mb-3  d-flex align-items-center justify-content-center "> <!-- Columna 3 -->
+        <div class="text-right mx-auto">
+            <div class="iconos">
+                <i class="fa-regular fa-envelope"></i>
+            </div>
+            <div class="iconos">
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+            <div class="iconos">
+                <i class="fa-brands fa-whatsapp"></i>
+            </div>
+        </div>
+      </div>
+      </div>
+     
+     </footer>
+
+    <!--final del footer-->
+ 
+  <script src="https://kit.fontawesome.com/d7f2fe840a.js" crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+</body>
+</html>

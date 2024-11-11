@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>INTEC Instituto</title>
+  <link href="style3.css" rel="stylesheet" type="text/css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/carousel/">
+
+</head>
+
+<body>
+
+  <!--navbar -->
+
+     <nav id="navintec" class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+              <img id="logo" src="Proyecto Creador de logotipos-Photoroom.png" alt="Bootstrap" width="120" height="80">
+            </a>
+            <a id="colornav1" class="navbar-brand" href="#">INSTITUTO DE ENSEÑANZA <br> TECNOLÓGICA</a>
+            <button id="hamburger-toggler" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a id="colornav" class="nav-link active" aria-current="page" href="index.html">Nosotros</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a id="colornav" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Cursos
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="colornav">
+                    <li><a class="dropdown-item" href="programacion.html">PROGRAMACIÓN</a></li>
+                    <li><a class="dropdown-item" href="hardware.html">HARDWARE</a></li>
+                    <li><a class="dropdown-item" href="robotica.html">ROBÓTICA y 3D</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a id="colornav" class="nav-link" href="inscripcion.html">Inscripción</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+      </nav>
+
+<!--CONTENIDO ROBOTICA-->
+
+    <div class="container">
+        <!-- Sección de Robótica -->
+        <div class="course-section">
+            <div class="course-header">ROBOTICA</div>
+            <div class="course-content">
+                <p>¡Descubre el apasionante mundo de la robótica con nuestro curso! Aprenderás a diseñar, construir y programar robots capaces de automatizar tareas complejas. No importa si eres principiante o tienes experiencia, este curso te dará las habilidades necesarias para destacar en un campo en constante crecimiento. ¡Inscríbete ahora!</p>
+            </div>
+
+            <!-- Carrusel de Robótica -->
+            <div id="carouselRobotica" class="carousel slide course-carousel mx-auto" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="robotica.jpg" class="d-block w-100" alt="Robótica 1">
+                        <div class="carousel-caption d-none d-md-block">
+                            <p>La robótica estudia, diseña y crea robots para automatizar tareas mediante programación y mecánica</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="robotica2.jpg" class="d-block w-100" alt="Robótica 2">
+                        <div class="carousel-caption d-none d-md-block">
+                            <p>Experimenta el desarrollo de robots inteligentes para la industria</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselRobotica" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselRobotica" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Sección de Impresión 3D -->
+        <div class="course-section">
+            <div class="course-header">IMPRESIÓN 3D</div>
+            <div class="course-content">
+                <p>Descubre el fascinante mundo de la impresión 3D con nuestro curso especializado. Aprenderás a diseñar y fabricar objetos tridimensionales desde cero, utilizando tecnologías de vanguardia. ¡Inscríbete ahora y lleva tus ideas a una nueva dimensión!</p>
+            </div>
+
+            <!-- Carrusel de Impresión 3D -->
+            <div id="carouselImpresion3D" class="carousel slide course-carousel mx-auto" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="impresion3d.jpg" class="d-block w-100" alt="Impresión 3D 1">
+                        <div class="carousel-caption d-none d-md-block">
+                            <p>La impresión 3D crea objetos físicos mediante capas de material siguiendo un diseño digital.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="impresion3d2.jpg" class="d-block w-100" alt="Impresión 3D 2">
+                        <div class="carousel-caption d-none d-md-block">
+                            <p>Aprende a fabricar prototipos personalizados para diferentes industrias</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselImpresion3D" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselImpresion3D" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+
+  <!--FIN DEL CONTENIDO DE ROBOTICA-->
+
+
+      <div class="container text-center"> 
+        <p id="testimonio">NUESTROS CURSOS</p>
+        <div class="row justify-content-center">
+          <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center mb-4">
+            <div class="card"  id="cardho" style="width: 100%; max-width: 300px; height: auto;">
+              <img class="card-img-top" src="Seguridad-TIC.jpg" alt="Card image">
+              <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center overlay-gradient">
+                <h4 class="card-title text-center" id="cartas">PROGRAMACIÓN</h4>
+                <a href="programacion.html" class="btn btn-primary mt-auto" style="width: 100px;">VER MÁS</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center mb-4">
+            <div class="card" id="cardho" style="width: 100%; max-width: 300px; height: auto;">
+              <img class="card-img-top" src="reparacion_microinformaticos.jpg" alt="Card image">
+              <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center overlay-gradient">
+                <h4 class="card-title text-center" id="cartas">REPARACIÓN DE PC</h4>
+                <a href="hardware.html" class="btn btn-primary mt-auto" style="width: 100px;">VER MÁS</a>
+              </div>
+            </div>
+          </div>
+         
+        </div>
+      </div>
+      <br>
+      <br>
+<!--FOOTER-->
+    <footer class="text-white d-flex justify-content-between align-items-center p-4" id="foter">
+        <a class="navbar-brand" href="#navintec"> 
+              <img id="logofooter" src="Proyecto Creador de logotipos-Photoroom.png" alt="Bootstrap" width="130" height="100"></a>
+
+        <div class="container text-center">
+            <section class="mb-4">
+                <a href="inscripcion.html" class="btn btn-primary mb-3" id="botonfoter">INSCRÍBETE YA</a>
+            </section>
+            <div class="d-flex justify-content-center mt-3">
+                <div class="iconos"><i class="fa-regular fa-envelope"></i></div>
+                <div class="iconos"><i class="fa-brands fa-instagram"></i></div>
+                <div class="iconos"><i class="fa-brands fa-whatsapp"></i></div>
+            </div>
+        </div>
+
+        <div class="iconos1">
+            <a href="index.html">
+                <i class="fa-solid fa-house"></i>
+        </div>
+    </footer>
+
+  <!--final del footer-->
+ 
+  <script src="https://kit.fontawesome.com/d7f2fe840a.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+  </body>
+  </html>

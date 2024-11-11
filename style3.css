@@ -1,0 +1,398 @@
+*{
+  font-family: "Lato", sans-serif;
+ /* font-weight: 300;*/
+  font-style:normal;
+}
+
+#logo{
+border-radius:15%
+}
+
+
+.navbar .dropdown-menu {
+  background-color: #1498EB; /* Usa el mismo color que el navbar */
+  border: none; /* Elimina el borde */
+  position: absolute;
+  z-index: 1000;
+}
+/* Cambia el color del texto en los elementos del dropdown */
+.navbar .dropdown-item {
+  color: white; /* Ajusta el color del texto si es necesario */
+}
+
+/* Cambia el color de fondo cuando el cursor está sobre un elemento del dropdown */
+.navbar .dropdown-item:hover {
+  background-color: #7FACE1; /* Un color ligeramente más oscuro para indicar el hover */
+  color: white; /* Mantén el texto en blanco para mejor visibilidad */
+}
+
+.navbar .dropdown-toggle::after {
+  display: none;
+}
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 576px) { /* Ajuste para pantallas más pequeñas, típicamente móviles */
+  #logo {
+    width: 90px; /* Reduce el tamaño del logo */
+    height: 60px;
+  }
+
+  #colornav1 {
+    font-size: 12px;
+    text-align: center;
+    line-height: 1.2;
+  }
+
+  /* Ajusta el botón de hamburguesa y su alineación */
+  #hamburger-toggler {
+    margin-left: auto;
+  }
+
+  /* Modifica el menú colapsado para pantallas más pequeñas */
+  .navbar-collapse {
+
+    padding: 15px;
+  }
+
+  /* Ajusta el estilo de los enlaces en dispositivos móviles */
+  .navbar-nav .nav-link {
+    color: white !important;
+    font-size: 14px;
+    padding: 8px 0; /* Reduce el espaciado */
+  }
+
+  .navbar-nav {
+    text-align: center; /* Centra el texto en el menú desplegable */
+  }
+}
+.card-img-top{
+width: 300px;
+height: 200px;
+}
+
+#navintec{
+background-color: #7FACE1 !important;
+}
+#colornav{
+color: white;
+font-weight: bold;
+}
+/*
+#foter {
+  background-color: #3E72D6;
+}
+
+#botonfoter {
+  background-color: #D2DDDF;
+  color: #3E72D6;
+  font-weight: bold;
+}
+
+#botonfoter:hover {
+  background-color: #0d0d0d;
+  color: #3E72D6;
+  font-weight: bold;
+}
+
+.iconos {
+  font-size: 31px;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: #D2DDDF;
+  color: #3E72D6;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 5px;
+}
+
+.iconos:hover {
+  background-color: #d9d9d9;
+  color: #000000;
+}
+.iconos1:hover {
+background-color: #000000;
+  color: #3E72D6;
+}
+
+.iconos1 {
+  font-size: 35px;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: #D2DDDF;
+  color: #3E72D6;
+  width: 75px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}*/
+
+#foter {
+  background-color: #3E72D6;
+}
+
+#botonfoter {
+  background-color: #D2DDDF;
+  color: #3E72D6;
+  font-weight: bold;
+}
+
+#botonfoter:hover {
+  background-color: #0d0d0d;
+  color: #3E72D6;
+  font-weight: bold;
+}
+
+.iconos {
+  font-size: 31px;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: #D2DDDF;
+  color: #3E72D6;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 5px;
+}
+
+.iconos:hover {
+  background-color: #d9d9d9;
+  color: #000000;
+}
+
+.iconos1 {
+  font-size: 35px;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: #D2DDDF;
+  color: #3E72D6;
+  width: 75px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.iconos1:hover {
+  background-color: #000000;
+  color: #3E72D6;
+}
+@media (max-width: 600px) {
+  #foter {
+    flex-direction: row; /* Mantiene los elementos en una fila */
+    flex-wrap: nowrap; /* Evita que los elementos pasen a la siguiente línea */
+    justify-content: center;
+    gap: 10px; /* Espacio entre elementos */
+  }
+
+  .navbar-brand, .iconos1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto; /* Permite que los elementos mantengan su tamaño */
+  }
+
+  #botonfoter {
+    font-size: 14px;
+    padding: 8px 12px;
+    width: auto;
+  }
+
+  .iconos, .iconos1 {
+    width: 40px; 
+    height: 40px;
+    margin: 0 3px;
+    font-size:25px;
+  }
+
+.iconos1 {
+    width: 85px; 
+    height: 40px;
+    margin: 0 3px;
+    font-size:25px;
+  }
+
+
+  #logofooter {
+    width: 80px; 
+    height: auto;
+  }
+}
+/*finfooter*/ 
+
+.course-card {
+  background-color: #D9D9D9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+#card2 {
+  background-color: #1498eb;
+  color:white ;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+
+}
+.img-fluid{
+  border-radius: 5%;
+}
+
+.course-card img {
+  width: 250px;
+
+  max-width: 100%;
+  border-radius: 8px;
+}
+.course-title {
+  color: #050505;
+  font-weight: bold;
+}
+
+#cardho:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+
+#estiloelec{
+  font-weight: bold;
+  color: white;
+}
+/*ESTILOS PARA ROBOTICA*/
+
+#cartas{
+  color: white;
+  display: inline;
+}
+.card {
+  margin: 10px;
+}
+#testimonio{
+ /* background-color: #D2DDDF;*/
+  color: #3E72D6;
+  font-size: 26px;
+  font-weight: bold;
+  display:inline-flex;
+}
+.course-section {
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  margin: 20px 0;
+}
+
+.course-content {
+  text-align: center;
+  color: #555;
+  font-weight:bold;
+}
+
+.course-header {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #007bff;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+
+.course-carousel {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.course-carousel .carousel-inner {
+  aspect-ratio: 16 / 9; /* Establece una relación de aspecto de 16:9 */
+  width: 100%;
+  overflow: hidden;
+}
+
+.course-carousel .carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.course-carousel .carousel-caption {
+ background-color: rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  bottom: 50%;
+  transform: translateY(50%);
+}
+
+.course-carousel .carousel-caption h5 {
+  margin: 0;
+}
+
+/* Ajustes responsivos */
+@media (max-width: 768px) {
+  .course-header {
+      font-size: 1.25rem;
+  }
+
+  .course-caption {
+      font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .course-header {
+      font-size: 1rem;
+  }
+
+  .course-caption h5 {
+      font-size: 1rem;
+  }
+
+  .course-caption p {
+      font-size: 0.8rem;
+  }
+}
+
+/* Estilos para los botones de control del carrusel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  padding: 10px;
+}
+#colornav1{
+color: white;
+font-weight: bold;
+}
+#colornav{
+  color: white;
+  font-weight: bold;
+}
+
+#colornav:hover {
+  color: #1498EB; /* Cambia el color al hacer hover */
+  text-decoration: underline; /* Opcional: subraya el texto en hover */
+
+}
+.overlay-gradient {
+width: 100%;
+padding: 10px;
+background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 10%, rgba(0, 0, 0, 0) 70% ); /*top*/
+text-align: center;
+}
+@media (min-width: 992px) {
+  .course-carousel {
+    transform: scale(0.9); /* Ajusta el valor para reducir el tamaño (0.9 = 90%) */
+    transform-origin: center; /* Centra el efecto de escala */
+  }
+}
