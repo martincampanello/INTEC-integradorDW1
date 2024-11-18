@@ -5,6 +5,20 @@
 }
 
 
+#colornav1{
+color: white;
+font-weight: bold;
+}
+#colornav{
+  color: white;
+  font-weight: bold;
+}
+
+#colornav:hover {
+  color: #1498EB; /* Cambia el color al hacer hover */
+  text-decoration: underline; /* Opcional: subraya el texto en hover */
+
+}
 .navbar .dropdown-menu {
   background-color: #1498EB; 
   border: none; /* Elimina el borde */
@@ -51,7 +65,7 @@
 /* Ajustes para pantallas pequeñas */
 @media (max-width: 576px) { /* Ajuste para pantallas más pequeñas, típicamente móviles */
   #logo {
-    width: 90px; /* Reduce el tamaño del logo */
+    width: 110px; /* Reduce el tamaño del logo */
     height: 60px;
   }
 
@@ -317,7 +331,7 @@ justify-content: center;
 }
 @media (max-width: 768px) {
   #logofooter {
-    width: 90px; 
+    width: 130px; 
     height: auto;
   }
     .iconos {
@@ -332,105 +346,6 @@ justify-content: center;
     width: auto;
     height: auto;
   }
-}
-
-/* HOJA 2 INSCRIPCION*/
-
-#mapaubi {
-color:#3E72D6;
-font-size: 26px;
-font-weight: bold;
-}
-
-/* Estilo del título del formulario */
-#form-title {
-  color: #1a73e8;
-  font-weight: bold;
-  font-size: 2rem; /* Tamaño del título aumentado */
-}
-
-/* Contenedor principal */
-#form-container {
-  max-width: 900px; /* Aumentado el ancho máximo */
-  width: 100%;
-}
-
-/* Estilo de la tarjeta del formulario */
-#form-card {
-  background-color: #d8e2e7; /* Color de fondo del formulario */
-  border-radius: 12px;
-  border: 1px solid #cbd5e0;
-  padding: 40px; /* Aumentado el padding interno */
-}
-
-/* Estilo del texto de las etiquetas */
-#label-nombre,
-#label-apellido,
-#label-telefono,
-#label-email,
-#label-curso,
-#label-domicilio,
-#label-comentarios {
-  color: #1a73e8;
-  font-weight: 500;
-}
-
-/* Estilo de los campos de entrada */
-#nombre, #apellido, #telefono, #email, #curso, #domicilio, #comentarios {
-  background-color: #ffffff;
-  border: 1px solid #cbd5e0;
-  transition: border-color 0.3s ease;
-}
-
-#nombre:focus, #apellido:focus, #telefono:focus, #email:focus, #curso:focus, #domicilio:focus, #comentarios:focus {
-  border-color: #1a73e8;
-  box-shadow: 0 0 5px rgba(26, 115, 232, 0.3);
-}
-
-/* Estilo del botón de enviar */
-#btn-submit {
-  background-color: #1a73e8;
-  color: white;
-  border: none;
-  padding: 12px 40px; /* Aumentado el tamaño del botón */
-  font-size: 1.1rem; /* Tamaño de fuente aumentado */
-  border-radius: 8px;
-  transition: background-color 0.3s, transform 0.2s;
-}
-
-#btn-submit:hover {
-  background-color: #0d5bbf;
-  transform: scale(1.05);
-}
-
-#btn-submit:active {
-  background-color: #094a96;
-}
-
-/* Sombras y bordes para dar un toque más profesional */
-#form-card {
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
-}
-
-#iconoubi{
-font-size: 23px;
-color: #3E72D6;
-font-weight: bold;
-}
-
-#colornav1{
-color: white;
-font-weight: bold;
-}
-#colornav{
-  color: white;
-  font-weight: bold;
-}
-
-#colornav:hover {
-  color: #1498EB; /* Cambia el color al hacer hover */
-  text-decoration: underline; /* Opcional: subraya el texto en hover */
-  
 }
 
 /*ESTILOS PARA EL MODAL*/
