@@ -29,41 +29,7 @@ border-radius:15%
 .navbar .dropdown-toggle::after {
   display: none;
 }
-/* Ajustes para pantallas pequeñas */
-@media (max-width: 576px) { /* Ajuste para pantallas más pequeñas, típicamente móviles */
-  #logo {
-    width: 110px; /* Reduce el tamaño del logo */
-    height: 50px;
-  }
 
-  #colornav1 {
-    font-size: 12px;
-    text-align: center;
-    line-height: 1.2;
-  }
-
-  /* Ajusta el botón de hamburguesa y su alineación */
-  #hamburger-toggler {
-    margin-left: auto;
-  }
-
-  /* Modifica el menú colapsado para pantallas más pequeñas */
-  .navbar-collapse {
-
-    padding: 15px;
-  }
-
-  /* Ajusta el estilo de los enlaces en dispositivos móviles */
-  .navbar-nav .nav-link {
-    color: white !important;
-    font-size: 14px;
-    padding: 8px 0; /* Reduce el espaciado */
-  }
-
-  .navbar-nav {
-    text-align: center; /* Centra el texto en el menú desplegable */
-  }
-}
 .card-img-top{
 width: 300px;
 height: 200px;
@@ -182,48 +148,15 @@ background-color: #000000;
   background-color: #000000;
   color: #3E72D6;
 }
-@media (max-width: 600px) {
-  #foter {
-    flex-direction: row; /* Mantiene los elementos en una fila */
-    flex-wrap: nowrap; /* Evita que los elementos pasen a la siguiente línea */
-    justify-content: center;
-    gap: 10px; /* Espacio entre elementos */
-  }
-
-  .navbar-brand, .iconos1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: auto; /* Permite que los elementos mantengan su tamaño */
-  }
-
-  #botonfoter {
-    font-size: 14px;
-    padding: 8px 12px;
-    width: auto;
-  }
-
-  .iconos, .iconos1 {
-    width: 40px; 
-    height: 40px;
-    margin: 0 3px;
-    font-size:25px;
-  }
-
-.iconos1 {
-    width: 85px; 
-    height: 40px;
-    margin: 0 3px;
-    font-size:25px;
-  }
-
-
-  #logofooter {
-    width: 105px; 
-    height: 50px;
-  }
-}
 /*finfooter*/ 
+
+
+#main-title {
+    color: #3E72D6;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 20px;
+}
 
 .course-card {
   background-color: #D9D9D9;
@@ -264,7 +197,6 @@ background-color: #000000;
   font-weight: bold;
 }
 
-
 #estiloelec{
   font-weight: bold;
   color: white;
@@ -281,7 +213,7 @@ background-color: #000000;
 #testimonio{
  /* background-color: #D2DDDF;*/
   color: #3E72D6;
-  font-size: 26px;
+  font-size: 30px;
   font-weight: bold;
   display:inline-flex;
 }
@@ -299,7 +231,7 @@ background-color: #000000;
 }
 
 .course-header {
-  font-size: 1.5rem;
+  font-size: 35px;
   font-weight: bold;
   color: #007bff;
   text-align: center;
@@ -396,4 +328,88 @@ text-align: center;
     transform: scale(0.9); /* Ajusta el valor para reducir el tamaño (0.9 = 90%) */
     transform-origin: center; /* Centra el efecto de escala */
   }
+}
+
+
+
+@media (max-width: 600px) {
+  #foter {
+    flex-direction: row; /* Mantiene los elementos en una fila */
+    flex-wrap: nowrap; /* Evita que los elementos pasen a la siguiente línea */
+    justify-content: center;
+    gap: 10px; /* Espacio entre elementos */
+  }
+
+  .navbar-brand, .iconos1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto; /* Permite que los elementos mantengan su tamaño */
+  }
+
+  #botonfoter {
+    font-size: 14px;
+    padding: 8px 12px;
+    width: auto;
+  }
+
+  .iconos, .iconos1 {
+    width: 40px; 
+    height: 40px;
+    margin: 0 3px;
+    font-size:25px;
+  }
+
+.iconos1 {
+    width: 85px; 
+    height: 40px;
+    margin: 0 3px;
+    font-size:25px;
+  }
+
+
+  #logofooter {
+    width: 105px; 
+    height: 50px;
+  }
+}
+
+@media (max-width: 576px) { /* Ajuste para pantallas más pequeñas, típicamente móviles */
+  #logo {
+    width: 110px; /* Reduce el tamaño del logo */
+    height: 50px;
+  }
+
+  #colornav1 {
+    font-size: 12px;
+    text-align: center;
+    line-height: 1.2;
+  }
+
+  /* Ajusta el botón de hamburguesa y su alineación */
+  #hamburger-toggler {
+    margin-left: auto;
+  }
+
+  /* Modifica el menú colapsado para pantallas más pequeñas */
+  .navbar-collapse {
+
+    padding: 15px;
+  }
+
+  /* Ajusta el estilo de los enlaces en dispositivos móviles */
+  .navbar-nav .nav-link {
+    color: white !important;
+    font-size: 14px;
+    padding: 8px 0; /* Reduce el espaciado */
+  }
+
+  .navbar-nav {
+    text-align: center; /* Centra el texto en el menú desplegable */
+  }
+  #main-title{
+    font-size: 35px;
+    color: #3E72D6;
+  }
+
 }
