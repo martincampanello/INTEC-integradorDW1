@@ -17,8 +17,8 @@
   <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
-
+  /> 
+  <link rel="icon" href="Proyecto Creador de logotipos-Photoroom.png" type="image/x-icon">
 </head>
 
 <body>
@@ -28,7 +28,7 @@
   <nav id="navintec" class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">
-          <img id="logo" src="Proyecto Creador de logotiposPhotoroom .png" alt="Bootstrap" width="240" height="80">
+          <img id="logo" src="Proyecto Creador de logotipos-Photoroom.png" alt="Bootstrap" width="240" height="80">
         </a>
         <a id="colornav1" class="navbar-brand" href="#">INSTITUTO DE ENSEÑANZA <br> TECNOLÓGICA</a>
         <button id="hamburger-toggler" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -206,99 +206,126 @@
   <br>
        <!--fincartas-->
 
-    <!--TESTIMONIOS-->
-     <div class="container text-center">
-       <p id="testimonio">TESTIMONIOS DE NUESTROS CLIENTES</p>
-     </div>
 
-     <div id="testimonialCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
-       <div class="carousel-inner">
-           <!-- Testimonio 1 -->
-           <div class="carousel-item active">
-               <div class="testimonial-card d-flex flex-column flex-md-row align-items-center p-3">
-                   <img src="foto_cv_lc_es_11.jpg" alt="Foto de Carlos Martínez" class="testimonial-img rounded-circle me-md-3 mb-3 mb-md-0">
-                   <div class="testimonial-content text-center text-md-start">
-                       <div class="testimonial-header d-flex flex-column flex-md-row align-items-center mb-2">
-                           <h5 class="mb-1">Carlos Martínez</h5>
-                           <div class="star-rating ms-md-2">
-                               &#9733; &#9733; &#9733; &#9733; &#9734;
-                           </div>
-                       </div>
-                       <p class="text-muted">Estudiante de Desarrollo de Software</p>
-                       <p class="testimonial-text">
-                           "La experiencia fue excelente. Los profesores son muy dedicados, y las prácticas me han ayudado a aplicar todo lo aprendido en clase."
-                       </p>
-                   </div>
-               </div>
-           </div>
-           <!-- Testimonio 2 -->
-           <div class="carousel-item">
-               <div class="testimonial-card d-flex flex-column flex-md-row align-items-center p-3">
-                   <img src="foto_cv_lc_es_7.jpg" alt="Foto de Ana González" class="testimonial-img rounded-circle me-md-3 mb-3 mb-md-0">
-                   <div class="testimonial-content text-center text-md-start">
-                       <div class="testimonial-header d-flex flex-column flex-md-row align-items-center mb-2">
-                           <h5 class="mb-1">Ana González</h5>
-                           <div class="star-rating ms-md-2">
-                               &#9733; &#9733; &#9733; &#9733; &#9733;
-                           </div>
-                       </div>
-                       <p class="text-muted">Graduada en Redes y Telecomunicaciones</p>
-                       <p class="testimonial-text">
-                           "Gracias al Instituto conseguí empleo en una gran empresa. La formación práctica realmente me preparó para el mundo laboral."
-                       </p>
-                   </div>
-               </div>
-           </div>
-           <!-- Testimonio 3 -->
-           <div class="carousel-item">
-               <div class="testimonial-card d-flex flex-column flex-md-row align-items-center p-3">
-                   <img src="foto cv.jpg" alt="Foto de Luis Herrera" class="testimonial-img rounded-circle me-md-3 mb-3 mb-md-0">
-                   <div class="testimonial-content text-center text-md-start">
-                       <div class="testimonial-header d-flex flex-column flex-md-row align-items-center mb-2">
-                           <h5 class="mb-1">Luis Herrera</h5>
-                           <div class="star-rating ms-md-2">
-                               &#9733; &#9733; &#9733; &#9733; &#9734;
-                           </div>
-                       </div>
-                       <p class="text-muted">Padre de familia</p>
-                       <p class="testimonial-text">
-                           "Estoy muy satisfecho con la educación de mi hijo en el Instituto. Veo cómo ha crecido en conocimiento y confianza."
-                       </p>
-                   </div>
-               </div>
-           </div>
-       </div>
-        <br>
-       <!-- Controles del carrusel -->
-       <div class="carousel-indicators">
-           <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-           <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-           <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-       </div>
-     </div>
+      <!-- Botón para abrir el modal -->
+<div class="container text-center my-5">
+  <button type="button" class="btn btn-success btn-lg glow-animation" 
+          data-bs-toggle="modal" data-bs-target="#promoModal">
+    🎉 ¡Descubre nuestra promoción especial! 🎉
+  </button>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="promoModal" tabindex="-1" aria-labelledby="promoModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title text-danger fw-bold" id="promoModalLabel">🎉 Promoción Especial 🎉</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-center">
+        <!-- Imagen de la promoción -->
+        <img src="promocion.png" alt="Promoción Especial" class="img-fluid rounded">
+        <p class="mt-3 fs-5 text-primary">
+          ¡Aprovecha esta oferta limitada y obtén hasta un <span class="fw-bold">60% de descuento</span> en nuestros cursos!
+        </p>
+        <p class="text-muted">
+          📅 Promoción válida hasta el 30 de noviembre de 2024.
+        </p>
+      </div>
+      <div class="modal-footer d-flex justify-content-center">
+        <button type="button" class="btn btn-primary btn-lg" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <!--TESTIMONIOS-->
+    <div class="container text-center">
+      <p id="testimonio">TESTIMONIOS DE NUESTROS CLIENTES</p>
+    </div>
+    
+    <div id="testimonialCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <!-- Testimonio 1 -->
+        <div class="carousel-item active">
+          <div class="testimonial-card d-flex flex-column align-items-center text-center p-4 mx-auto">
+            <img src="foto_cv_lc_es_11.jpg" alt="Foto de Carlos Martínez" class="testimonial-img rounded-circle">
+            <div class="testimonial-content">
+              <h5 class="testimonial-name">Carlos Martínez</h5>
+              <div class="star-rating">
+                &#9733; &#9733; &#9733; &#9733; &#9734;
+              </div>
+              <p class="text-muted">Estudiante de Desarrollo de Software</p>
+              <p class="testimonial-text">
+                "La experiencia fue excelente. Los profesores son muy dedicados, y las prácticas me han ayudado a aplicar todo lo aprendido en clase."
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Testimonio 2 -->
+        <div class="carousel-item">
+          <div class="testimonial-card d-flex flex-column align-items-center text-center p-4 mx-auto">
+            <img src="foto_cv_lc_es_7.jpg" alt="Foto de Ana González" class="testimonial-img rounded-circle">
+            <div class="testimonial-content">
+              <h5 class="testimonial-name">Ana González</h5>
+              <div class="star-rating">
+                &#9733; &#9733; &#9733; &#9733; &#9733;
+              </div>
+              <p class="text-muted">Graduada en Redes y Telecomunicaciones</p>
+              <p class="testimonial-text">
+                "Gracias al Instituto conseguí empleo en una gran empresa. La formación práctica realmente me preparó para el mundo laboral."
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Testimonio 3 -->
+        <div class="carousel-item">
+          <div class="testimonial-card d-flex flex-column align-items-center text-center p-4 mx-auto">
+            <img src="foto cv.jpg" alt="Foto de Luis Herrera" class="testimonial-img rounded-circle">
+            <div class="testimonial-content">
+              <h5 class="testimonial-name">Luis Herrera</h5>
+              <div class="star-rating">
+                &#9733; &#9733; &#9733; &#9733; &#9734;
+              </div>
+              <p class="text-muted">Padre de familia</p>
+              <p class="testimonial-text">
+                "Estoy muy satisfecho con la educación de mi hijo en el Instituto. Veo cómo ha crecido en conocimiento y confianza."
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Controles del carrusel -->
+      <div  class="carousel-indicators">
+        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+    </div>
+    
   <!--FIN DE TESTIMONIOS-->
-     <br>
+    
 
 
 <!--footer-->
-  <!-- <footer class=" text-white d-flex justify-content-between align-items-center p-4" id="foter">  
+    <footer class=" text-white d-flex justify-content-between align-items-center p-4" id="foter">
+      
       <div class="row w-100 justify-content-center text-center ">
-      <div class="col-6 col-md-4 mb-3 d-flex align-items-center justify-content-center">
+      <div class="col-6 col-md-4 mb-3 d-flex align-items-center justify-content-center"> <!-- Columna 1 -->
         <a class="navbar-brand" href="#navintec"> 
           <img id="logofooter" src="Proyecto Creador de logotipos-Photoroom.png" alt="Bootstrap" width="200" height="80"></a>
       </div>
-
-
-      <div class="col-6 col-md-4 mb-3 d-flex align-items-center justify-content-center">
+      <div class="col-6 col-md-4 mb-3 d-flex align-items-center justify-content-center"> <!-- Columna 2 -->
         <div class="container text-center">
 
              <a href="inscripcion.html" class="btn btn-primary mb-3" id="botonfoter">INSCRÍBETE YA</a>
 
          </div>
+
       </div>
-
-
-      <div class="col-12 col-md-4 mb-3  d-flex align-items-center justify-content-center "> 
+      <div class="col-12 col-md-4 mb-3  d-flex align-items-center justify-content-center "> <!-- Columna 3 -->
         <div class="text-right mx-auto">
             <div class="iconos">
                 <i class="fa-regular fa-envelope"></i>
@@ -314,28 +341,6 @@
       </div>
      
      </footer>
-    -->
-        
-<footer class="text-white d-flex justify-content-between align-items-center p-4" id="foter">
-  <a class="navbar-brand" href="#navintec"> 
-        <img id="logofooter" src="Proyecto Creador de logotipos-Photoroom.png" alt="Bootstrap" width="200" height="70"></a>
-
-  <div class="container text-center">
-      <section class="mb-4">
-          <a href="inscripcion.html" class="btn btn-primary mb-3" id="botonfoter">INSCRÍBETE YA</a>
-      </section>
-      <div class="d-flex justify-content-center mt-3">
-          <div class="iconos"><i class="fa-regular fa-envelope"></i></div>
-          <div class="iconos"><i class="fa-brands fa-instagram"></i></div>
-          <div class="iconos"><i class="fa-brands fa-whatsapp"></i></div>
-      </div>
-  </div>
-
-  <div class="iconos1">
-      <a href="index.html">
-          <i class="fa-solid fa-house"></i>
-  </div>
-</footer>
 
     <!--final del footer-->
  
