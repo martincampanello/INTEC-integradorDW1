@@ -35,9 +35,9 @@ font-weight: bold;
 color: white;
 font-weight: bold;
 }
+
 #colornav:hover {
-  color: #1498EB; 
-  text-decoration: underline; 
+  color: black; 
 }
 
 #logo {

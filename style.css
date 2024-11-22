@@ -15,8 +15,7 @@ font-weight: bold;
 }
 
 #colornav:hover {
-  color: #1498EB; /* Cambia el color al hacer hover */
-  text-decoration: underline; /* Opcional: subraya el texto en hover */
+  color: black; /* Cambia el color al hacer hover */
 
 }
 .navbar .dropdown-menu {
@@ -302,8 +301,8 @@ color:#3E72D6;
 font-weight: bold;
 }
 #botonfoter:hover{
-background-color: #0d0d0d;
-color:#3E72D6;
+background-color: #d9d9d9;
+color:#000000;
 font-weight: bold;
 }
 
@@ -313,22 +312,45 @@ gap: 10px;
 }
 
 .iconos {
-font-size: 30px;
-cursor: pointer;
-border-radius: 50%;
-background-color: #D2DDDF;
-color: #3E72D6;
-width: 50px; 
-height: 50px; 
-display: flex;
-align-items: center;
-justify-content: center;
+  font-size: 31px;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: #D2DDDF;
+  color: #3E72D6;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 5px;
 }
 
 .iconos:hover {
   background-color: #d9d9d9;
   color: #000000;
 }
+
+
+.iconos1 {
+  font-size: 35px;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: #D2DDDF;
+  color: #3E72D6;
+  width: 75px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 150px;
+}
+
+.iconos1:hover {
+  background-color: #d9d9d9;
+  color: #000000;
+}
+
+
 @media (max-width: 768px) {
   #logofooter {
     width: 130px; 

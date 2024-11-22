@@ -15,8 +15,8 @@
 }
 
 #botonfoter:hover {
-  background-color: #0d0d0d;
-  color: #3E72D6;
+  background-color: #d9d9d9;
+  color: #000000;
   font-weight: bold;
 }
 
@@ -35,8 +35,8 @@
 }
 
 .iconos:hover {
-  background-color: #000000;
-  color: #3E72D6;
+  background-color: #d9d9d9;
+  color: #000000;
 }
 
 .iconos1 {
@@ -55,8 +55,8 @@
 }
 
 .iconos1:hover {
-  background-color: #000000;
-  color: #3E72D6;
+  background-color: #d9d9d9;
+  color: #000000;
 }
 
 #navintec{
@@ -174,8 +174,8 @@ font-weight: bold;
 
 /* Contenedor principal */
 #form-container {
-  max-width: 900px; /* Aumentado el ancho máximo */
-  width: 100%;
+  max-width: 1000px; /* Aumentado el ancho máximo */
+  /*width: 100%;*/
 }
 
 /* Estilo de la tarjeta del formulario */
@@ -251,8 +251,9 @@ font-weight: bold;
 }
 
 #colornav:hover {
-  color: #1498EB; /* Cambia el color al hacer hover */
-  text-decoration: underline; /* Opcional: subraya el texto en hover */
-
+  color: black; /* Cambia el color al hacer hover */
 }
 
+*container{
+  max-width: 1900px ;
+}

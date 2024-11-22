@@ -106,8 +106,8 @@ background-color: #000000;
 }
 
 #botonfoter:hover {
-  background-color: #0d0d0d;
-  color: #3E72D6;
+  background-color: #d9d9d9;
+  color: #000000;
   font-weight: bold;
 }
 
@@ -145,8 +145,8 @@ background-color: #000000;
 }
 
 .iconos1:hover {
-  background-color: #000000;
-  color: #3E72D6;
+  background-color: #d9d9d9;
+  color: #000000;
 }
 /*finfooter*/ 
 
@@ -313,8 +313,7 @@ font-weight: bold;
 }
 
 #colornav:hover {
-  color: #1498EB; /* Cambia el color al hacer hover */
-  text-decoration: underline; /* Opcional: subraya el texto en hover */
+  color: black; /* Cambia el color al hacer hover */
 
 }
 .overlay-gradient {
