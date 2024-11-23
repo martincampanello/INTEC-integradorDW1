@@ -167,16 +167,15 @@ font-weight: bold;
 
 /* Estilo del título del formulario */
 #form-title {
-  color: #1a73e8;
+  color: #3E72D6;
   font-weight: bold;
   font-size: 2rem; /* Tamaño del título aumentado */
 }
 
-/* Contenedor principal */
+/* Contenedor principal 
 #form-container {
-  max-width: 1000px; /* Aumentado el ancho máximo */
-  /*width: 100%;*/
-}
+  max-width: 1000px; 
+}*/
 
 /* Estilo de la tarjeta del formulario */
 #form-card {
@@ -185,6 +184,23 @@ font-weight: bold;
   border: 1px solid #cbd5e0;
   padding: 40px; /* Aumentado el padding interno */
 }
+
+#form-card{
+  max-width: 720px;
+}
+
+#form-container {
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center;    /* Centrar verticalmente */
+  box-sizing: border-box; /* Considerar el padding en el cálculo del tamaño */
+}
+/*
+#form-card {
+  max-width: 600px;       
+  width: 100%;         
+  margin: auto;           
+  box-sizing: border-box; 
+}*/
 
 /* Estilo del texto de las etiquetas */
 #label-nombre,
@@ -252,8 +268,4 @@ font-weight: bold;
 
 #colornav:hover {
   color: black; /* Cambia el color al hacer hover */
-}
-
-*container{
-  max-width: 1900px ;
 }
