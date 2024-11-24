@@ -299,6 +299,9 @@ background-color: #000000;
   .course-caption p {
       font-size: 0.8rem;
   }
+  .course-section{
+    padding: 12px;
+  }
 }
 
 /* Estilos para los botones de control del carrusel */
