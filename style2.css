@@ -371,5 +371,15 @@ margin: 10px;
 }
 
 #videop{
-  border-radius: 8px;
+  border-radius: 12px;
+  height: auto;
+  width: 560px;
+}
+
+
+@media (max-width: 576px) {
+  #videop {
+    max-width: 455px; /* Aún más pequeño en pantallas pequeñas */
+  }
+  
 }
