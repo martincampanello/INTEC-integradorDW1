@@ -379,8 +379,15 @@ margin: 10px;
 
 @media (max-width: 576px) {
   #videop {
-   max-width: 400px;/* Aún más pequeño en pantallas pequeñas */
-
+    max-width: auto;/* Aún más pequeño en pantallas pequeñas */
+    width: 455px;
   }
-  
+
+  #frontend-content img,
+#backend-content img {
+    max-width: 95%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
 }
