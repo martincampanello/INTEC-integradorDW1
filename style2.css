@@ -40,9 +40,6 @@ font-weight: bold;
   color: black; 
 }
 
-#logo {
-  margin-left: 10px;
-}
 
 #foter {
   background-color: #3E72D6;
@@ -243,14 +240,13 @@ margin: 10px;
   margin: 10px;
 }
 
-#testimonio{
- /* background-color: #D2DDDF;*/
+#testimonio {
   color: #3E72D6;
-  font-size: 30px;
+  font-size: 26px;
   font-weight: bold;
-  display:inline-flex;
+  display: block; /* Cambiado de inline-flex a block */
+  margin-bottom: 20px; /* Agrega margen para separación */
 }
-
 
 
 @media (max-width: 600px) {
