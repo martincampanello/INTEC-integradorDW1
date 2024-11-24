@@ -198,7 +198,7 @@ margin-bottom: 15px;
 
 #frontend-content img,
 #backend-content img {
-    max-width: 80%;
+    max-width: 85%;
     height: auto;
     margin-bottom: 10px;
     border-radius: 8px;
@@ -380,12 +380,12 @@ margin: 10px;
 @media (max-width: 576px) {
   #videop {
     max-width: auto;/* Aún más pequeño en pantallas pequeñas */
-    width: 350px;
+    width: 100%;
   }
 
   #frontend-content img,
 #backend-content img {
-    max-width: 95%;
+    max-width: 99%;
     height: auto;
     margin-bottom: 10px;
     border-radius: 8px;
