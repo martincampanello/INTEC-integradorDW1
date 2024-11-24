@@ -380,7 +380,7 @@ margin: 10px;
 @media (max-width: 576px) {
   #videop {
     max-width: auto;/* Aún más pequeño en pantallas pequeñas */
-    width: 455px;
+    width: 350px;
   }
 
   #frontend-content img,
