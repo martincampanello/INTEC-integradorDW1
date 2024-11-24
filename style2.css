@@ -43,60 +43,6 @@ font-weight: bold;
 #logo {
   margin-left: 10px;
 }
-/*
-#foter {
-  background-color: #3E72D6;
-}
-
-#botonfoter {
-  background-color: #D2DDDF;
-  color: #3E72D6;
-  font-weight: bold;
-}
-
-#botonfoter:hover {
-  background-color: #0d0d0d;
-  color: #3E72D6;
-  font-weight: bold;
-}
-
-.iconos {
-  font-size: 31px;
-  cursor: pointer;
-  border-radius: 50%;
-  background-color: #D2DDDF;
-  color: #3E72D6;
-  width: 50px;
-  height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 5px;
-}
-
-.iconos:hover {
-  background-color: #d9d9d9;
-  color: #000000;
-}
-.iconos1:hover {
-background-color: #000000;
-  color: #3E72D6;
-}
-
-
-.iconos1 {
-  font-size: 35px;
-  cursor: pointer;
-  border-radius: 50%;
-  background-color: #D2DDDF;
-  color: #3E72D6;
-  width: 75px;
-  height: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-}*/
 
 #foter {
   background-color: #3E72D6;
@@ -151,29 +97,6 @@ background-color: #000000;
   background-color: #000000;
   color: #3E72D6;
 }
-
-
-
-/*
-.card {
-    border: none;
-    background-color: #f4f4f4;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    margin-bottom: 20px;
-    transition: transform 0.2s;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: none;
-    background-color: #f4f4f4;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    margin-bottom: 20px;
-    transition: transform 0.2s;
-}*/
-
 
 
 .card{
@@ -257,7 +180,7 @@ margin-bottom: 15px;
     background-color: #4D72D6;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     transition: transform 0.2s;
 
 }
@@ -278,6 +201,7 @@ margin-bottom: 15px;
     max-width: 80%;
     height: auto;
     margin-bottom: 10px;
+    border-radius: 8px;
 }
 
 #frontend-content p,
@@ -409,4 +333,43 @@ margin: 10px;
   #section-frontend{
     font-size: 22px;
   }
+}
+
+
+
+#backend-content,#basics-content,
+#frontend-content {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+#backend-content .col-md-6 {
+  display: flex;
+ /* flex-direction: column;*/
+  justify-content: center;
+}
+
+.backend-img ,.frontend-img{
+  max-width: 100%;
+  height: 100%;
+  object-fit: contain; /* Mantiene la proporción */
+  display: block;
+  margin: auto; /* Centra la imagen */
+}
+
+.card {
+  height: 100%;  /* Se asegura de que la tarjeta ocupe todo el espacio */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; /* Centra el contenido de la tarjeta */
+}
+
+.card-body {
+  flex-grow: 1;
+}
+
+#videop{
+  border-radius: 8px;
 }

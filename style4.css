@@ -155,8 +155,6 @@ background-color: #7FACE1 !important;
   }
 }
 
-
-
 /* HOJA 2 INSCRIPCION*/
 
 #mapaubi {
@@ -268,4 +266,8 @@ font-weight: bold;
 
 #colornav:hover {
   color: black; /* Cambia el color al hacer hover */
+}
+
+#mapas{
+  border-radius: 9px;
 }
