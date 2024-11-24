@@ -379,8 +379,8 @@ margin: 10px;
 
 @media (max-width: 576px) {
   #videop {
-   /* max-width: 455px;*/ /* Aún más pequeño en pantallas pequeñas */
-    max-width: auto ;
+   max-width: 400px;/* Aún más pequeño en pantallas pequeñas */
+
   }
   
 }
